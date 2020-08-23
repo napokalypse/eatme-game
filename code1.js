@@ -18,36 +18,36 @@ gdjs.GameCode.forEachTotalCount3 = 0;
 gdjs.GameCode.GDplayerObjects1= [];
 gdjs.GameCode.GDplayerObjects2= [];
 gdjs.GameCode.GDplayerObjects3= [];
-gdjs.GameCode.GDamandaObjects1= [];
-gdjs.GameCode.GDamandaObjects2= [];
-gdjs.GameCode.GDamandaObjects3= [];
-gdjs.GameCode.GDjoss2Objects1= [];
-gdjs.GameCode.GDjoss2Objects2= [];
-gdjs.GameCode.GDjoss2Objects3= [];
-gdjs.GameCode.GDben10Objects1= [];
-gdjs.GameCode.GDben10Objects2= [];
-gdjs.GameCode.GDben10Objects3= [];
-gdjs.GameCode.GDtrymagainObjects1= [];
-gdjs.GameCode.GDtrymagainObjects2= [];
-gdjs.GameCode.GDtrymagainObjects3= [];
-gdjs.GameCode.GDtrymObjects1= [];
-gdjs.GameCode.GDtrymObjects2= [];
-gdjs.GameCode.GDtrymObjects3= [];
-gdjs.GameCode.GDdnailObjects1= [];
-gdjs.GameCode.GDdnailObjects2= [];
-gdjs.GameCode.GDdnailObjects3= [];
-gdjs.GameCode.GDtordObjects1= [];
-gdjs.GameCode.GDtordObjects2= [];
-gdjs.GameCode.GDtordObjects3= [];
-gdjs.GameCode.GDsnorreObjects1= [];
-gdjs.GameCode.GDsnorreObjects2= [];
-gdjs.GameCode.GDsnorreObjects3= [];
-gdjs.GameCode.GDdaveObjects1= [];
-gdjs.GameCode.GDdaveObjects2= [];
-gdjs.GameCode.GDdaveObjects3= [];
-gdjs.GameCode.GDben11Objects1= [];
-gdjs.GameCode.GDben11Objects2= [];
-gdjs.GameCode.GDben11Objects3= [];
+gdjs.GameCode.GDplayerAObjects1= [];
+gdjs.GameCode.GDplayerAObjects2= [];
+gdjs.GameCode.GDplayerAObjects3= [];
+gdjs.GameCode.GDplayerJ1Objects1= [];
+gdjs.GameCode.GDplayerJ1Objects2= [];
+gdjs.GameCode.GDplayerJ1Objects3= [];
+gdjs.GameCode.GDplayerB1Objects1= [];
+gdjs.GameCode.GDplayerB1Objects2= [];
+gdjs.GameCode.GDplayerB1Objects3= [];
+gdjs.GameCode.GDplayerT1Objects1= [];
+gdjs.GameCode.GDplayerT1Objects2= [];
+gdjs.GameCode.GDplayerT1Objects3= [];
+gdjs.GameCode.GDplayerT2Objects1= [];
+gdjs.GameCode.GDplayerT2Objects2= [];
+gdjs.GameCode.GDplayerT2Objects3= [];
+gdjs.GameCode.GDplayerD1Objects1= [];
+gdjs.GameCode.GDplayerD1Objects2= [];
+gdjs.GameCode.GDplayerD1Objects3= [];
+gdjs.GameCode.GDplayerTo1Objects1= [];
+gdjs.GameCode.GDplayerTo1Objects2= [];
+gdjs.GameCode.GDplayerTo1Objects3= [];
+gdjs.GameCode.GDplayerS1Objects1= [];
+gdjs.GameCode.GDplayerS1Objects2= [];
+gdjs.GameCode.GDplayerS1Objects3= [];
+gdjs.GameCode.GDplayerDa1Objects1= [];
+gdjs.GameCode.GDplayerDa1Objects2= [];
+gdjs.GameCode.GDplayerDa1Objects3= [];
+gdjs.GameCode.GDplayerB2Objects1= [];
+gdjs.GameCode.GDplayerB2Objects2= [];
+gdjs.GameCode.GDplayerB2Objects3= [];
 gdjs.GameCode.GDcookie3Objects1= [];
 gdjs.GameCode.GDcookie3Objects2= [];
 gdjs.GameCode.GDcookie3Objects3= [];
@@ -60,6 +60,9 @@ gdjs.GameCode.GDcookie4Objects3= [];
 gdjs.GameCode.GDcookieObjects1= [];
 gdjs.GameCode.GDcookieObjects2= [];
 gdjs.GameCode.GDcookieObjects3= [];
+gdjs.GameCode.GDplayerJ2Objects1= [];
+gdjs.GameCode.GDplayerJ2Objects2= [];
+gdjs.GameCode.GDplayerJ2Objects3= [];
 gdjs.GameCode.GDbgObjects1= [];
 gdjs.GameCode.GDbgObjects2= [];
 gdjs.GameCode.GDbgObjects3= [];
@@ -99,7 +102,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("jostein1");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("j1");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (10));
@@ -122,7 +125,7 @@ gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (15));
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("amanda");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("a1");
 }
 }}
 
@@ -139,7 +142,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("jostein2");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("j2");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (5));
@@ -159,7 +162,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("ben1");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("b1");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (5));
@@ -179,7 +182,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("trim2");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("t1");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (7));
@@ -199,10 +202,10 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("trim1");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("t2");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (5));
+    gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (7));
 }
 }}
 
@@ -219,7 +222,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("dnail");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("dn1");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (10));
@@ -239,7 +242,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("tord");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("to1");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (17));
@@ -259,7 +262,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("snorre");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("s1");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (5));
@@ -279,7 +282,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 gdjs.GameCode.GDplayerObjects2.createFrom(gdjs.GameCode.GDplayerObjects1);
 
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("dave");
+    gdjs.GameCode.GDplayerObjects2[i].setAnimationName("d1");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects2[i].setScale(gdjs.GameCode.GDplayerObjects2[i].getScale() / (8));
@@ -298,7 +301,7 @@ gdjs.GameCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(ru
 }if (gdjs.GameCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.GameCode.GDplayerObjects1 */
 {for(var i = 0, len = gdjs.GameCode.GDplayerObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDplayerObjects1[i].setAnimationName("ben2");
+    gdjs.GameCode.GDplayerObjects1[i].setAnimationName("b2");
 }
 }{for(var i = 0, len = gdjs.GameCode.GDplayerObjects1.length ;i < len;++i) {
     gdjs.GameCode.GDplayerObjects1[i].setScale(gdjs.GameCode.GDplayerObjects1[i].getScale() / (8));
@@ -1273,36 +1276,36 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.GameCode.GDplayerObjects1.length = 0;
 gdjs.GameCode.GDplayerObjects2.length = 0;
 gdjs.GameCode.GDplayerObjects3.length = 0;
-gdjs.GameCode.GDamandaObjects1.length = 0;
-gdjs.GameCode.GDamandaObjects2.length = 0;
-gdjs.GameCode.GDamandaObjects3.length = 0;
-gdjs.GameCode.GDjoss2Objects1.length = 0;
-gdjs.GameCode.GDjoss2Objects2.length = 0;
-gdjs.GameCode.GDjoss2Objects3.length = 0;
-gdjs.GameCode.GDben10Objects1.length = 0;
-gdjs.GameCode.GDben10Objects2.length = 0;
-gdjs.GameCode.GDben10Objects3.length = 0;
-gdjs.GameCode.GDtrymagainObjects1.length = 0;
-gdjs.GameCode.GDtrymagainObjects2.length = 0;
-gdjs.GameCode.GDtrymagainObjects3.length = 0;
-gdjs.GameCode.GDtrymObjects1.length = 0;
-gdjs.GameCode.GDtrymObjects2.length = 0;
-gdjs.GameCode.GDtrymObjects3.length = 0;
-gdjs.GameCode.GDdnailObjects1.length = 0;
-gdjs.GameCode.GDdnailObjects2.length = 0;
-gdjs.GameCode.GDdnailObjects3.length = 0;
-gdjs.GameCode.GDtordObjects1.length = 0;
-gdjs.GameCode.GDtordObjects2.length = 0;
-gdjs.GameCode.GDtordObjects3.length = 0;
-gdjs.GameCode.GDsnorreObjects1.length = 0;
-gdjs.GameCode.GDsnorreObjects2.length = 0;
-gdjs.GameCode.GDsnorreObjects3.length = 0;
-gdjs.GameCode.GDdaveObjects1.length = 0;
-gdjs.GameCode.GDdaveObjects2.length = 0;
-gdjs.GameCode.GDdaveObjects3.length = 0;
-gdjs.GameCode.GDben11Objects1.length = 0;
-gdjs.GameCode.GDben11Objects2.length = 0;
-gdjs.GameCode.GDben11Objects3.length = 0;
+gdjs.GameCode.GDplayerAObjects1.length = 0;
+gdjs.GameCode.GDplayerAObjects2.length = 0;
+gdjs.GameCode.GDplayerAObjects3.length = 0;
+gdjs.GameCode.GDplayerJ1Objects1.length = 0;
+gdjs.GameCode.GDplayerJ1Objects2.length = 0;
+gdjs.GameCode.GDplayerJ1Objects3.length = 0;
+gdjs.GameCode.GDplayerB1Objects1.length = 0;
+gdjs.GameCode.GDplayerB1Objects2.length = 0;
+gdjs.GameCode.GDplayerB1Objects3.length = 0;
+gdjs.GameCode.GDplayerT1Objects1.length = 0;
+gdjs.GameCode.GDplayerT1Objects2.length = 0;
+gdjs.GameCode.GDplayerT1Objects3.length = 0;
+gdjs.GameCode.GDplayerT2Objects1.length = 0;
+gdjs.GameCode.GDplayerT2Objects2.length = 0;
+gdjs.GameCode.GDplayerT2Objects3.length = 0;
+gdjs.GameCode.GDplayerD1Objects1.length = 0;
+gdjs.GameCode.GDplayerD1Objects2.length = 0;
+gdjs.GameCode.GDplayerD1Objects3.length = 0;
+gdjs.GameCode.GDplayerTo1Objects1.length = 0;
+gdjs.GameCode.GDplayerTo1Objects2.length = 0;
+gdjs.GameCode.GDplayerTo1Objects3.length = 0;
+gdjs.GameCode.GDplayerS1Objects1.length = 0;
+gdjs.GameCode.GDplayerS1Objects2.length = 0;
+gdjs.GameCode.GDplayerS1Objects3.length = 0;
+gdjs.GameCode.GDplayerDa1Objects1.length = 0;
+gdjs.GameCode.GDplayerDa1Objects2.length = 0;
+gdjs.GameCode.GDplayerDa1Objects3.length = 0;
+gdjs.GameCode.GDplayerB2Objects1.length = 0;
+gdjs.GameCode.GDplayerB2Objects2.length = 0;
+gdjs.GameCode.GDplayerB2Objects3.length = 0;
 gdjs.GameCode.GDcookie3Objects1.length = 0;
 gdjs.GameCode.GDcookie3Objects2.length = 0;
 gdjs.GameCode.GDcookie3Objects3.length = 0;
@@ -1315,6 +1318,9 @@ gdjs.GameCode.GDcookie4Objects3.length = 0;
 gdjs.GameCode.GDcookieObjects1.length = 0;
 gdjs.GameCode.GDcookieObjects2.length = 0;
 gdjs.GameCode.GDcookieObjects3.length = 0;
+gdjs.GameCode.GDplayerJ2Objects1.length = 0;
+gdjs.GameCode.GDplayerJ2Objects2.length = 0;
+gdjs.GameCode.GDplayerJ2Objects3.length = 0;
 gdjs.GameCode.GDbgObjects1.length = 0;
 gdjs.GameCode.GDbgObjects2.length = 0;
 gdjs.GameCode.GDbgObjects3.length = 0;
