@@ -45,9 +45,10 @@ gdjs.ThanksCode.GDrespEndObjects2= [];
 gdjs.ThanksCode.conditionTrue_0 = {val:false};
 gdjs.ThanksCode.condition0IsTrue_0 = {val:false};
 gdjs.ThanksCode.condition1IsTrue_0 = {val:false};
+gdjs.ThanksCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.ThanksCode.eventsList0 = function(runtimeScene) {
+gdjs.ThanksCode.mapOfGDgdjs_46ThanksCode_46GDtryAgainObjects1Objects = Hashtable.newFrom({"tryAgain": gdjs.ThanksCode.GDtryAgainObjects1});gdjs.ThanksCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -67,11 +68,17 @@ gdjs.ThanksCode.GDthanksScoreObjects1.createFrom(runtimeScene.getObjects("thanks
 
 {
 
+gdjs.ThanksCode.GDtryAgainObjects1.createFrom(runtimeScene.getObjects("tryAgain"));
 
 gdjs.ThanksCode.condition0IsTrue_0.val = false;
+gdjs.ThanksCode.condition1IsTrue_0.val = false;
 {
-gdjs.ThanksCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-}if (gdjs.ThanksCode.condition0IsTrue_0.val) {
+gdjs.ThanksCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.ThanksCode.mapOfGDgdjs_46ThanksCode_46GDtryAgainObjects1Objects, runtimeScene, true, false);
+}if ( gdjs.ThanksCode.condition0IsTrue_0.val ) {
+{
+gdjs.ThanksCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}}
+if (gdjs.ThanksCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "pickChar", true);
 }}
 
